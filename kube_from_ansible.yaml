@@ -2,7 +2,7 @@
   tasks:
     - name: Copy deployment.yaml to Kubernetes master
       ansible.builtin.copy:
-        src: "/home/slaveadmin/workspace/Health-Care/deployment.yaml"
+        src: "/home/slaveadmin/workspace/HealthCare-Pipelineproject/deployment.yaml"
         dest: "/tmp/deployment.yaml"
 
     - name: Execute kubectl create command
